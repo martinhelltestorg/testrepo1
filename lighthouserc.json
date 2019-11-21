@@ -2,7 +2,13 @@
   "ci": {
     "collect": {
       "numberOfRuns": 5,
-      "url": ["https://eurosportplayer.com/"]
+      "url": [
+        "https://eurosportplayer.com/",
+        "https://dplay.se/"
+      ],
+      "settings": {
+        "emulated-form-factor": "mobile"
+      }
     },
     "upload": {
       "target": "lhci",
